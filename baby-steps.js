@@ -1,14 +1,8 @@
-const sum = process.argv.reduce((acc, data) => {
-	// process.argv also includes command ('node','module',...)
+const sumFromCommandline = process.argv.reduce((acc, data) => {
+	// process.argv also includes command-text ('node','module',...)
 	const convertedNumber = +data;
-	// --- START LOGGING ---
-	// console.log('acc', acc);
-	// console.log('data', data);
-	// console.log('convertedNumber', convertedNumber);
-	// console.log('---');
-	// --- END LOGGING ---
 
 	if (!Number.isNaN(convertedNumber)) return acc + convertedNumber;
 	return acc;
 }, 0);
-process.stdout.write(sum + '\n');
+process.stdout.write(sumFromCommandline + '\n');
