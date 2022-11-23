@@ -4,6 +4,8 @@
 	"description": "try practice everyday with NodeSchool's command line program for NodeJS",
 	"main": "_random.js",
 	"scripts": {
+		"learnnode": "learnnode",
+		"learnstream": "stream-adventure",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
