@@ -10,6 +10,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"learnyounode": "4.2.2"
+		"learnyounode": "4.2.2",
+		"stream-adventure": "4.3.2"
 	}
 }
